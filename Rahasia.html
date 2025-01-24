@@ -38,12 +38,16 @@
             gap: 15px;
         }
 
-        .gallery img {
+        .gallery img, .gallery-video {
             width: 100%;
             aspect-ratio: 1 / 1;
             object-fit: cover;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-video {
+            object-fit: contain;
         }
 
         @keyframes fadeIn {
@@ -106,6 +110,10 @@
             <img src="images/kenangan.jpg" alt="Kenangan 1">
             <img src="images/kenangan.jpg" alt="Kenangan 2">
             <img src="images/kenangan.jpg" alt="Kenangan 3">
+            <video class="gallery-video" controls>
+                <source src="video/kenangan.mp4" type="video/mp4">
+                Your Browser Does Not Support The Video Tag.
+            </video>
         </div>
     </div>
 
