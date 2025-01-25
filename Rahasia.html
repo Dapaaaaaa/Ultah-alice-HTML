@@ -34,7 +34,7 @@
 
         .gallery {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            grid-template-columns: repeat(3, 1fr);
             gap: 15px;
         }
 
@@ -68,11 +68,13 @@
             border: none;
             border-radius: 5px;
             transition: background-color 0.3s ease;
+            transition: transform 0.3s ease;
             animation: fadeIn 2s ease-in-out forwards;
         }
 
         .btn-custom:hover {
             background-color: #ff4f67;
+            transform: scale(1.1);
         }
     </style>
 </head>
@@ -93,37 +95,48 @@
         <h2>Ucapan Ulang Tahun</h2>
         <div class="mb-3">
             <p><strong>Dari: Pacarmu❤</strong></p>
-            <p>"Selamat ulang tahun sayang yaa! Ciee si cantik nan manis sudah berumur 19 tahun.
+            <p>Selamat ulang tahun sayang yaa! Ciee si cantik nan manis sudah berumur 19 tahun.
                 Aku bangga banget sama sayang sudah berjuang dan berusaha sebaik mungkin sampai dititik ini
                 dengan usaha yang bener bener maksimal dari duluu itu salah satu alasan aku bangga banget sama sayang.
                 Padahal mungkin sayang juga pengen have fun terus kuliahh tapi sayang mengalah dan berusaha dewasa buat
                 ngelaluin itu semuaa padahal aku yakin itu berat dan cape kan sayangg terima kasih banyak sayang yaa.
                 Terima kasih banyak juga sudah sabarr selama ini kita LDR terus sayang juga sabar ngehadapin semuanya
-                terima kasih banyak sayang yaa"</p>
+                terima kasih banyak sayang yaa.</p>
         </div>
     </div>
 
     <!-- Section 2: Foto & Video -->
     <div class="section">
-        <h2>Kenangan Indah</h2>
+        <h2>Kenangan</h2>
         <div class="gallery">
-            <img src="images/kenangan.jpg" alt="Kenangan 1">
-            <img src="images/kenangan.jpg" alt="Kenangan 2">
-            <img src="images/kenangan.jpg" alt="Kenangan 3">
-            <video class="gallery-video" controls>
+            <img src="images/kenangan1.JPG" alt="Kenangan 1">
+            <img src="images/kenangan 2.jpg" alt="Kenangan 2">
+            <img src="images/kenangan 3.jpg" alt="Kenangan 3">
+            <img src="images/kenangan 4.jpg" alt="Kengangan 4">
+            <img src="images/kenangan 5.jpg" alt="Kengangan 4">
+            <img src="images/kenangan 6.jpg" alt="Kengangan 4">
+            <!-- <video class="gallery-video" controls>
                 <source src="video/kenangan.mp4" type="video/mp4">
                 Your Browser Does Not Support The Video Tag.
-            </video>
+            </video> -->
         </div>
     </div>
 
     <!-- Section 3: Pesan Khusus -->
     <div class="section">
         <h2>Doa & Harapan Ku Kedepannya</h2>
-        <p>"Doa & Harapan Ku Kedepannya buat sayang, semogaa sayang selalu dilancarkan rezekinyaa..."Doa & Harapan Ku Kedepannya buat sayang, semogaa sayang selalu dilancarkan rezekinyaa dilancarkan segala urusan dan usahanya.
+        <p>Doa & Harapan Ku Kedepannya buat sayang, semogaa sayang selalu dilancarkan rezekinyaa dilancarkan segala urusan dan usahanya.
             Semoga sayang panjang umurr selalu diberi keselamatan, kesehatan, kebahagian selalu, dan juga selalu beruntung dalam hal apapun.
-            Terima kasih banyak sudah hadir di hidupkuu i love uu 💓"</p>
-        <p>- Dari: Pacarmu❤</p>
+            Terima kasih banyak sudah hadir di hidupkuu i love uu 💓.</p>
+    </div>
+
+    <!-- Section 4: Permohonan Maaf -->
+    <div class="section">
+        <h2>Permohonan Maaf</h2>
+        <p>Aku minta maaf mungkin aku belum bisa jadi pacar serta cowo yang baik buat kamu selama ini, maafkan aku banyak egois nyaa
+            banyak marahnyaa banyak kesalnyaa banyak bikin sayang nangis maafin aku sayang ya sudah nyakitin kamu sebegitu seringnya.
+            Maaf juga aku ga bisa ngasih apa apa di hari ulang tahun mu yang spesial ini maafin aku sayangku ya. Terima kasih banyak
+            sudah hadir dihidupku, Aku mencintaimu.</p>
     </div>
 
     <script>
